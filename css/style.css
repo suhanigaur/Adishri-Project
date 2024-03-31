@@ -165,11 +165,11 @@ a{
   font-size: 20px;
   display: inline-block;
   padding: 20px 40px;
-  border: 2px solid skyblue;
+  border: 2px solid black;
   letter-spacing: .15em;
   text-transform: uppercase;
   text-decoration: none;
-  color: skyblue;
+  color: black;
   overflow: hidden;
   z-index: 1;
   transition: 1s;
@@ -178,7 +178,7 @@ a{
 a:hover{
   color: white;
   box-shadow: 
-          0 0 160px skyblue;
+          0 0 160px black;
 }
 
 a::before{
@@ -188,7 +188,7 @@ a::before{
   left: -50px;
   width: 0;
   height: 100%;
-  background: skyblue;
+  background: red;
   transform: skew(35deg);
   z-index: -1;
   transition: 1s;
